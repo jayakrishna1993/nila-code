@@ -30,6 +30,7 @@ export type ToWebviewFromIdeOrCoreProtocol = {
   ];
   didCloseFiles: [{ uris: string[] }, void];
   isContinueInputFocused: [undefined, boolean];
+  isNilaCodeInputFocused: [undefined, boolean];
   addContextItem: [
     {
       historyIndex: number;
